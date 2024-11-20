@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/import-file-processor.git"
+            "url": "https://github.com/DevPHplaravel/import-file-processor.git"
         }
     ],
     "minimum-stability": "dev",
