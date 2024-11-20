@@ -1,10 +1,10 @@
 {
-    "name": "alessandro-mineo/import-file-processor",
+    "name": "devphplaravel/import-file-processor",
     "description": "Un pacchetto per processare file CSV, Excel, JSON e XML con log e gestione degli errori.",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "AlessandroMineo\\ImportFileProcessor\\": "src/"
+            "DevPHPLaravel\\ImportFileProcessor\\": "src/"
         }
     },
     "require": {
@@ -13,12 +13,6 @@
         "illuminate/support": "^10.0",
         "illuminate/database": "^10.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevPHplaravel/import-file-processor.git"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
