@@ -28,5 +28,20 @@ class FileProcessorServiceProvider extends ServiceProvider
 
         // Carica le migrazioni
         $this->loadMigrationsFrom(__DIR__.'/../migrations');
+
+
+        // Crea la directory import-files se non esiste
+        $this->createImportFilesDirectory();
+    }
+
+    protected function createImportFilesDirectory()
+    {
+        // Usa il disco 'local' per creare la directory
+        $path = 'import-files';
+
+        // Verifica se la directory esiste, altrimenti la crea
+        if (!Storage::disk('local')->exists($path)) {
+            Storage::disk('local')->makeDirectory($path);
+        }
     }
 }
