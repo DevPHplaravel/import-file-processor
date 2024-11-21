@@ -1,5 +1,6 @@
 <?php
-namespace AlessandroMineo\ImportFileProcessor\Services;
+
+namespace DevPHPLaravel\ImportFileProcessor\Services;
 
 interface FileProcessorInterface
 {

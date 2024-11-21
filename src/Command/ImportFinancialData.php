@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor\Command;
+namespace DevPHPLaravel\ImportFileProcessor\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;

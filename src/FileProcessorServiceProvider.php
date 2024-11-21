@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor;
+namespace DevPHPLaravel\ImportFileProcessor;
 
 use Illuminate\Support\ServiceProvider;
 

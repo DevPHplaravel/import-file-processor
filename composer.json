@@ -9,9 +9,15 @@
     "require": {
         "php": "^8.0",
         "maatwebsite/excel": "^3.1",
-        "illuminate/support": "^10.0",
-        "illuminate/database": "^10.0"
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/database": "^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevPHPLaravel\\ImportFileProcessor\\FileProcessorServiceProvider"
+            ]
+        }
     },
     "minimum-stability": "dev"
-    
 }

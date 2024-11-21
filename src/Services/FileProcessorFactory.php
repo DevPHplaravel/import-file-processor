@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor\Services;
+namespace DevPHPLaravel\ImportFileProcessor\Services;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Log;

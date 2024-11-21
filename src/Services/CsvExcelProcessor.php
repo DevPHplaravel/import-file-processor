@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor\Services;
+namespace DevPHPLaravel\ImportFileProcessor\Services;
 
 use Maatwebsite\Excel\Facades\Excel;
 use AlessandroMineo\ImportFileProcessor\FinancialRecordsImport; 

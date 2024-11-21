@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor\Models;
+namespace DevPHPLaravel\ImportFileProcessor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

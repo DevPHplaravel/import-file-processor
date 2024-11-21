@@ -1,6 +1,6 @@
 <?php
 
-namespace AlessandroMineo\ImportFileProcessor\Job;
+namespace DevPHPLaravel\ImportFileProcessor\Job;
 
 use AlessandroMineo\ImportFileProcessor\Service\FileProcessorFactory;
 use Illuminate\Bus\Queueable;
