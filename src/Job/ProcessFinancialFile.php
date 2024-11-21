@@ -2,13 +2,13 @@
 
 namespace DevPHPLaravel\ImportFileProcessor\Job;
 
-use AlessandroMineo\ImportFileProcessor\Service\FileProcessorFactory;
+use DevPHPLaravel\ImportFileProcessor\Service\FileProcessorFactory;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Storage;
 use Maatwebsite\Excel\Facades\Excel;
-use AlessandroMineo\ImportFileProcessor\FinancialRecordsImport;
+use DevPHPLaravel\ImportFileProcessor\FinancialRecordsImport;
 
 // Gestione tramite la coda dei job
 //  Una volta che i job sono stati messi nella coda, un worker esegue questi job

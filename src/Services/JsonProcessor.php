@@ -4,7 +4,7 @@ namespace DevPHPLaravel\ImportFileProcessor\Services;
 
 use Illuminate\Support\Facades\Log;
 use Carbon\Carbon;
-use AlessandroMineo\ImportFileProcessor\Models\FinacialRecord;
+use DevPHPLaravel\ImportFileProcessor\Models\FinacialRecord;
 use Illuminate\Support\Facades\Storage;
 
 class JsonProcessor implements FileProcessorInterface

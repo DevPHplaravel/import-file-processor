@@ -3,7 +3,7 @@
 namespace DevPHPLaravel\ImportFileProcessor\Services;
 
 use Maatwebsite\Excel\Facades\Excel;
-use AlessandroMineo\ImportFileProcessor\FinancialRecordsImport; 
+use DevPHPLaravel\ImportFileProcessor\FinancialRecordsImport; 
 use Illuminate\Support\Facades\Log;
 
 class CsvExcelProcessor implements FileProcessorInterface

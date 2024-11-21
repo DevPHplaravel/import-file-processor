@@ -5,7 +5,7 @@ namespace DevPHPLaravel\ImportFileProcessor\Command;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-use AlessandroMineo\ImportFileProcessor\ProcessFinancialFile;
+use DevPHPLaravel\ImportFileProcessor\ProcessFinancialFile;
 
 // Questo comando cerca tutti i file presenti nella cartella import-files.
 // Ogni file trovato viene gestito in modo separato creando un job nella coda.
