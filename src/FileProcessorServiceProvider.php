@@ -3,6 +3,7 @@
 namespace DevPHPLaravel\ImportFileProcessor;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Storage;
 
 class FileProcessorServiceProvider extends ServiceProvider
 {
