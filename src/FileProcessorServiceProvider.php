@@ -13,8 +13,12 @@ class FileProcessorServiceProvider extends ServiceProvider
     }
 
     public function boot()
-    
     {
+
+        // Registro i comandi
+        $this->commands([
+        \DevPHPLaravel\ImportFileProcessor\Command\ImportFinancialData::class, // Comando nel pacchetto
+    ]);
 
         // Pubblica il file di configurazione
     $this->publishes([

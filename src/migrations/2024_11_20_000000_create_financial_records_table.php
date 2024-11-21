@@ -10,7 +10,7 @@ class CreateFinancialRecordsTable extends Migration
     {
         Schema::create('financial_records', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('branch_id');
+            $table->string('branch_id', 7); // 3 lettere + 4 numeri
             $table->date('day');
             $table->decimal('daily_balance', 15, 2);
             $table->timestamps();

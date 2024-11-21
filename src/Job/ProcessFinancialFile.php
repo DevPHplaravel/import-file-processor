@@ -2,7 +2,7 @@
 
 namespace DevPHPLaravel\ImportFileProcessor\Job;
 
-use DevPHPLaravel\ImportFileProcessor\Service\FileProcessorFactory;
+use DevPHPLaravel\ImportFileProcessor\Services\FileProcessorFactory;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
